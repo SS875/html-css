@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+
+<body>
+    <h1 id = "title"> Survey Form </h1>
+    <p id = "description"> Please complete this survey and fill out all fields. Thank you! </p>
+    <form id = "survey-form">
+        <fieldset>
+            <legend>Survey</legend>
+            <label id = "name-label" for ="name">What is your first and last name? *required* </label><br>
+            <input id = "name" type="text" placeholder = "Type your name here" required><br>
+            <br>
+
+            <label id = "email-label" for="email">What is your email? *required*  </label><br>
+            <input id = "email" type = "email" placeholder = "username@domain.com" required><br>
+            <br>
+
+            <label id = "number-label" for = "number">What is your phone number? *required* </label><br>
+            <input id = "number" type="number" placeholder = "type a number here" min = "0" max = "1000000" required><br>
+            <br>
+
+            <label for = "Eye-color">What is your eye color?</label>
+            <select id = "dropdown" name = "Eye Colors">
+                <option value = "Brown">Brown</option>
+                <option value = "Black">Black</option>
+                <option value = "Blue">Blue</option>
+                <option value = "Gray">Gray</option>
+                <option value = "Hazel">Hazel</option>
+                <option value = "Green">Green</option>
+                <option value = "other">Other/Not Listed</option>
+            </select>
+            <br><br>
+
+
+            <p>What is your age?</p>
+            <input type = "radio", name = "age" value = "0-13">
+            <label for="0-13"> 0-13 </label>
+            <input type = "radio", name = "age" value = "13-20">
+            <label for="13-20"> 13-20 </label>
+            <input type = "radio", name = "age" value = "21-40">
+            <label for="21-40"> 21-40 </label>
+            <input type = "radio", name = "age" value = "40-65">
+            <label for="40-65"> 40-65 </label>
+            <input type = "radio", name = "age" value = "65+">
+            <label for="65+"> 65+ </label>
+            <br><br>
+
+            <p>Which of the following devices do you have access to in your home?</p>
+            <input type="checkbox" id="phone" name="phone" value="phone">
+            <label for="phone"> Smartphone </label>
+            <input type="checkbox" id="personal-computer" name="personal-computer" value="personal-computer">
+            <label for="personal-computer"> Laptop/Desktop </label>
+            <input type="checkbox" id="Smartwatch" name="Smartwatch" value="Smartwatch">
+            <label for="Smartwatch"> Smartwatch </label>
+            <input type="checkbox" id="TV" name="TV" value="TV">
+            <label for="TV"> Television </label>
+            <br><br>
+
+            <textarea name = "message" rows = "10" cols = "50" placeholder = "Any additional comments?"></textarea> <br>
+
+            <input type="submit" id = "submit" value = "submit">
+
+
+        </fieldset>
+    </form>
+</body>
+
+
+</html>

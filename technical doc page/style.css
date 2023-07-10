@@ -1,0 +1,70 @@
+
+body{
+    margin-top: 30px;
+}
+.main-section{
+    
+    flex-direction: column;
+    font-family: "lato";
+    padding-left: 300px;
+
+}
+
+
+header{
+    font-size: 25px;
+    font-family: "lato";
+}
+
+p{
+    color:rgb(97, 97, 97);
+    padding-left: 20px;
+}
+
+ul{
+    padding-left:80px;
+}
+
+li{
+    color:rgb(97, 97, 97);
+    
+}
+
+code{
+    color:black;
+    display:block;
+    background-color: rgb(223, 223, 223);
+    padding: 10px;
+}
+
+@media screen and (min-width: 550px) {
+
+    #navbar{
+        position:fixed;
+        display: block;
+        top: 0;
+        left: 0;
+        width: 270px;
+        height: 100%;
+        
+        border-right: 3px solid rgb(172, 172, 172);
+        
+    }
+
+    .nav-link{
+        
+        display: block;
+        font-family: "lato";
+        color: rgb(97, 97, 97);
+        text-decoration: none;
+        padding: 10px;
+        border-bottom: 1px solid black;
+        text-indent: 15px;
+    }
+
+    #navbar header{
+        padding: 10px;
+        border-bottom: 1px solid black;
+        text-indent: 15px;
+    }
+}

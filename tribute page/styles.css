@@ -1,0 +1,55 @@
+
+
+
+body{
+    background-color: gainsboro;
+
+    border-style: solid;
+    border-width: 20px 5px;
+    
+    padding: 10px;
+    border-color: white;
+    margin: 0;
+}
+
+#main{
+    text-align:center;
+    font-family: "Helvetica";
+}
+
+
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+li{
+    
+    font-family: "Verdana"; 
+    width: 500px;
+    margin: 10px;
+    font-size: 8;
+    
+
+}
+
+
+#img-div{
+    background-color:white;
+    border: 2px white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#image{
+    max-width: 100%;
+    max-height: 100%;
+}
